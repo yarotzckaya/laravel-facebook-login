@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Laravel\Socialite\Facades\Socialite;
+use Auth;
+
 
 class FacebookController extends Controller
 {
